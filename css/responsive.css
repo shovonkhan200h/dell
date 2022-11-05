@@ -1,0 +1,149 @@
+
+  @media (min-width: 768px) {
+    .container {
+      width: 750px;
+    }
+  }
+
+
+
+  @media (min-width: 992px) {
+    .container {
+      width: 970px;
+    }
+  }
+
+  
+  @media (min-width: 1200px) {
+    .container {
+      width: 1170px;
+    }
+  }
+
+
+  /*================================================*/
+ 
+  @media only screen and (max-width: 2000px){
+    .mobile-logo{
+      display: none;
+    }
+  }
+ 
+ 
+ 
+  @media only screen and (max-width: 992px){
+    .mobile-logo{
+      display: none;
+    }
+    .hero-1-btn{
+      width: 80px;
+      height: 30px;
+    }
+    .hero-1 h1{
+      font-size: 15px;
+    }
+    .mobile-info{
+      display: none;
+    }
+
+  }
+  
+  
+  @media only screen and (max-width: 768px) {
+    .hero-1 h1{
+      font-size: 20px;
+    }
+
+    .hero-1-btn{
+      width: 80px;
+      height: 40px;
+    }
+
+    .mobile-logo{
+      display: none;
+    }
+
+    .hero-1{
+      width: 100%;
+    }
+    .freeshipping{
+      width: 100%;
+    }  
+
+    .section-3{
+      width: 100%;
+    }
+    
+  } 
+
+  @media only screen and (max-width: 600px) {
+   .info{
+     /* visibility: hidden; */
+     display: none;
+   }
+
+   .logo{
+    display: none;
+   }
+
+   .mobile-logo{
+       display: flex;
+       align-items: center;
+       margin: 1rem;
+       position: relative;
+   }
+
+   .mobile-logo a{
+    margin: 1rem;
+    font-size: 15px;
+    color: #131313;
+   }
+   .mobile-logo a i{
+    font-size: 30px;
+    margin: 5px;
+    color: #131313;
+   }
+  
+  .hero-1{
+    width: 100%;
+  }
+  .section-3{
+    width: 100%;
+  }
+  .hide{
+    display: none;
+  }
+  .button-grp{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .button-grp button{
+    width: 400px;
+  }
+  .mobile-info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .mobile-info p{
+    font-size: 14.368px;
+    font-family: "Arial";
+    color: rgb(70, 70, 70);
+    line-height: 1.308;
+    -moz-transform: matrix( 0.90546867744102,0,0,0.9047885728614,0,0);
+    -webkit-transform: matrix( 0.90546867744102,0,0,0.9047885728614,0,0);
+    -ms-transform: matrix( 0.90546867744102,0,0,0.9047885728614,0,0);
+    width: 197.207px;
+    height: 28.789px;
+    text-align: center;
+  }
+ 
+
+  } 
+
+  
+
+
